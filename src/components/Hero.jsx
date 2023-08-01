@@ -44,9 +44,9 @@ const Hero = () => {
             <span className='text-[#915eff]'>Welcome</span>
           </h1> */}
           <p className={`${styles.heroSubText} mt-3 text-white-100`}>
-            My portfolio website
+            Telegram: <a href='https://t.me/jiayetey'>@jiayetey</a>
             <br className='sm:block hidden'/>
-            I hope you enjoy your stay
+            Swipe down to view more!
           </p>
         </div>
       </div>
