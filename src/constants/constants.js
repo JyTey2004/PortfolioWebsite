@@ -178,7 +178,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Haven't got one yet. Will update when I get one.",
+        "Haven't got one yet. Will update when I get one. Or you can give me one.",
       name: "Jia Ye",
       designation: "CEO",
       company: "Myself",
