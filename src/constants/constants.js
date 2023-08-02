@@ -238,7 +238,7 @@ import {
         },
       ],
       image: KRIS,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/JyTey2004/SQ_APP_Challenge",
     },
     {
       name: "Thrive App",
@@ -271,7 +271,7 @@ import {
         },
       ],
       image: Thrive,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/JyTey2004/SCS_Challenge/",
     },
     {
       name: "Enterprise Data Hub Backend API",
@@ -292,7 +292,7 @@ import {
         },
       ],
       image: EDH,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/JyTey2004/EnterpriseDataHub-BE-API",
     },
     {
       name: "My Portfolio Website",
@@ -317,7 +317,7 @@ import {
         },
       ],
       image: PortfolioWebsite,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/JyTey2004",
     },
   ];
   
