@@ -37,7 +37,7 @@ import PortfolioWebsite from "./PortfolioWebsite.png";
 import EDH from "./EDH.png";
 import cognidex from "./cognidex.png";
 
-import nus_logo from "./nus_logo.jpg";
+import nus_logo from "./nus_Logo.jpg";
 import toppan from "./toppan.png";
 
 export {
