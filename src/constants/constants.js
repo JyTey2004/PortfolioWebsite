@@ -29,7 +29,10 @@ import {
     KRIS,
     Thrive,
     PortfolioWebsite,
+    cognidex,
     EDH,
+    toppan,
+    nus_logo,
   } from "../assets";
   
   export const navLinks = [
@@ -150,7 +153,7 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "Toppan Ecquaria",
-      icon: javascript,
+      icon: toppan,
       iconBg: "#383E56",
       date: "Mar 2023 - Aug 2023",
       points: [
@@ -160,6 +163,33 @@ import {
         "Visualizing Data using Tableau to create Dashboards for presentation to clients.",
       ],
     },
+    {
+      title: "Data Engineering and LLM Optimization Intern",
+      company_name: "National University of Singapore",
+      icon: nus_logo,
+      iconBg: "#383E56",
+      date: "Aug 2023 - Oct 2023",
+      points: [
+        "Assist in building a langchain agent for searching datasets based on user intent from a vector database.",
+        "Building a full stack application using React.js, Amazon Web Services and Solidity.",
+        "Conducting research on the use of blockchain technology and utilization of LLMs in the data industry.",
+        "Researching on the use of machine learning to optimize the langchain agent.",
+        "Continuously building and improving the web application and integrate more features researched.",
+        "View the project below!",
+      ],
+    },
+    {
+      title: "Research Intern",
+      company_name: "National University of Singapore",
+      icon: nus_logo,
+      iconBg: "#383E56",
+      date: "Oct 2023 - Current",
+      points: [
+        "Researching on use cases of Data Sharing and Data Monetization in the industry.",
+        "Launching out new features to the web application and improving the user experience.",
+        "View the project below!",
+      ],
+    }
     // {
     //   title: "Web Developer",
     //   company_name: "Shopify",
@@ -318,6 +348,31 @@ import {
       ],
       image: PortfolioWebsite,
       source_code_link: "https://github.com/JyTey2004",
+    },
+    {
+      name: "Cognidex",
+      description:
+        "A decentralized application (DApp) that allows users to create, buy, sell data. The DApp is made using React.js, Solidity, and aws. Special thanks to NUS!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "green-text-gradient",
+        },
+        {
+          name: "solidity",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "postgres",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: cognidex,
+      source_code_link: "https://www.cognidex.net/",
     },
   ];
   

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import styles from '../carousel.css?inline';
 import styled from 'styled-components';
+import aws from '../assets/aws.png';
 
 const citiesData = [
     {
@@ -29,7 +29,7 @@ const citiesData = [
       },
       {
         imgSrc: 'https://www.oracle.com/a/ocom/img/rc24full-redbull-racing.jpg',
-        country: 'Serverless',
+        country: 'Cloud Computing',
         city: 'Oracle Cloud Infrastructure',
         popularPlaces: 10,
       },
@@ -44,6 +44,12 @@ const citiesData = [
         country: 'Mobile App Development',
         city: 'React Native',
         popularPlaces: 12,
+      },
+      {
+        imgSrc: aws,
+        country: 'Cloud Computing',
+        city: 'aws',
+        popularPlaces: 10,
       },
   // Replace this data if you want.
  

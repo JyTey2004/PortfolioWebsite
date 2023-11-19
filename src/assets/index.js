@@ -35,6 +35,10 @@ import KRIS from "./KRIS.png";
 import Thrive from "./Thrive.png";
 import PortfolioWebsite from "./PortfolioWebsite.png";
 import EDH from "./EDH.png";
+import cognidex from "./cognidex.png";
+
+import nus_logo from "./nus_logo.jpg";
+import toppan from "./toppan.png";
 
 export {
   logo,
@@ -70,4 +74,7 @@ export {
   Thrive,
   PortfolioWebsite,
   EDH,
+  cognidex,
+  nus_logo,
+  toppan,
 };

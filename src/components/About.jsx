@@ -47,7 +47,7 @@ const About = () => {
         </h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17-px] max-w-3xl leading=[30-px]">
-        I am a full-stack web developer with a passion for creating beautiful, responsive websites and mobile apps. I am currently a studying at Singapore Polytechnic and working as an intern. I have experience working with React, Node.js, Express, MongoDB, and more. I am always looking to learn new technologies and improve my skills. I am currently looking for a position as a full-stack developer intern.
+        I am a full-stack web developer with a passion for creating beautiful, responsive websites and mobile apps. I am currently a studying at Singapore Polytechnic and working as an intern. I have experience working with React, Node.js, Express, MongoDB, and more. I am always looking to learn new technologies and improve my skills. I am currently looking for a position as a full-stack developer or Data analytics intern.
       </motion.p>
 
       <div className='mt-20'>
