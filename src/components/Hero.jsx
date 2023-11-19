@@ -13,14 +13,14 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div> */}
-        <div className='mt-20'>
+        <div style={{ marginTop: '6vh'}}>
           <TypeWriterEffect
             textStyle={{
               fontFamily: 'Poppins',
               color: '#fff', 
               fontWeight: 900, 
-              fontSize: '7vh',
-              lineHeight: '7vh', 
+              fontSize: '7.5vh',
+              lineHeight: '7.5vh', 
               marginTop: '2px', 
             }}
             startDelay={2000}
