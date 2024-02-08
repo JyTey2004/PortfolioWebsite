@@ -40,6 +40,8 @@ import cognidex from "./cognidex.png";
 import nus_logo from "./nus_Logo.jpg";
 import toppan from "./toppan.png";
 
+import EDGE_CLUB from "./EDGE_CLUB.png";
+
 export {
   logo,
   backend,
@@ -77,4 +79,5 @@ export {
   cognidex,
   nus_logo,
   toppan,
+  EDGE_CLUB,
 };

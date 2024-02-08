@@ -33,6 +33,7 @@ import {
     EDH,
     toppan,
     nus_logo,
+    EDGE_CLUB
   } from "../assets";
   
   export const navLinks = [
@@ -374,6 +375,31 @@ import {
       image: cognidex,
       source_code_link: "https://www.cognidex.net/",
     },
+    {
+      name: "EdgeClub",
+      description:
+        "One Stop Solution for nightlife in Singapore. Website made using React.js, AWS and Node.js. Please explore and give feedback!",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: EDGE_CLUB,
+      source_code_link: "https://www.edgeclub.shop/",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
