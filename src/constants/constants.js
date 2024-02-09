@@ -33,9 +33,10 @@ import {
     EDH,
     toppan,
     nus_logo,
-    EDGE_CLUB
+    EDGE_CLUB,
+    EDGE_CLUB_LOGO
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -146,6 +147,7 @@ import {
       date: "March 2022 - June 2023",
       points: [
         "Developing and maintaining a Learning Management System using made using React.js and other relevant technologies.",
+        "Using Oracle Cloud Infrastructure to host and maintain the website.",
         "Hosting and maintaining the website using Oracle Cloud Infrastructure.",
         "Designing and developing the website using Figma.",
         "Presenting the website to potential clients and investors at Singapore Week Of Innovation and Technology (SWITCH) 2022.",
@@ -155,7 +157,7 @@ import {
       title: "Software Engineer Intern",
       company_name: "Toppan Ecquaria",
       icon: toppan,
-      iconBg: "#383E56",
+      iconBg: "black",
       date: "Mar 2023 - Aug 2023",
       points: [
         "Developing Backend Systems using Python and Flask Framework for the company's internal use.",
@@ -168,7 +170,7 @@ import {
       title: "Data Engineering and LLM Optimization Intern",
       company_name: "National University of Singapore",
       icon: nus_logo,
-      iconBg: "#383E56",
+      iconBg: "white",
       date: "Aug 2023 - Oct 2023",
       points: [
         "Assist in building a langchain agent for searching datasets based on user intent from a vector database.",
@@ -183,12 +185,30 @@ import {
       title: "Research Intern",
       company_name: "National University of Singapore",
       icon: nus_logo,
-      iconBg: "#383E56",
+      iconBg: "white",
       date: "Oct 2023 - Current",
       points: [
         "Researching on use cases of Data Sharing and Data Monetization in the industry.",
         "Launching out new features to the web application and improving the user experience.",
+        "Conducting research on the use of blockchain technology and utilization of LLMs in the data industry.",
+        "Integration of smart contracts and blockchain technology into the web application.",
+        "Data crawling and data analysis to improve the web application.",
         "View the project below!",
+      ],
+    },
+    {
+      title: "Founder",
+      company_name: "EdgeClub",
+      icon: EDGE_CLUB_LOGO,
+      iconBg: "white",
+      date: "Jan 2024 - Current",
+      points: [
+        "Developing and maintaining a website for nightlife in Singapore using React.js and other related technologies.",
+        "Using AWS to host and maintain the website.",
+        "AWS Lambda and AWS API Gateway to create serverless functions for the website, storing data in DynamoDB.",
+        "Live Data Integration using AWS Lambda and AWS API Gateway to display real-time data on the website.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        `Visit www.edgeclub.shop to view the website!`,
       ],
     }
     // {

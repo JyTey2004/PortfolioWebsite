@@ -41,6 +41,7 @@ import nus_logo from "./nus_Logo.jpg";
 import toppan from "./toppan.png";
 
 import EDGE_CLUB from "./EDGE_CLUB.png";
+import EDGE_CLUB_LOGO from "./EDGE_CLUB_LOGO.png";
 
 export {
   logo,
@@ -80,4 +81,5 @@ export {
   nus_logo,
   toppan,
   EDGE_CLUB,
+  EDGE_CLUB_LOGO,
 };
