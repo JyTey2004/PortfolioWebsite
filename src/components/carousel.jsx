@@ -3,57 +3,54 @@ import styled from 'styled-components';
 import aws from '../assets/aws.png';
 
 const citiesData = [
-    {
-        imgSrc: 'https://wallpaperaccess.com/full/3949076.jpg',
-        country: 'Frontend Development',
-        city: 'React.js',
-        popularPlaces: 12,
-      },
-      {
-        imgSrc: 'https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2Fcontent%2Fcover_image_file%2Fcover_image%2F1279226%2Fregular_1708x683_cover-0723_TheTop10MostCommonMistakesThatNode.jsDevelopersMake_Razvan_Newsletter-c49d8d7233bde8980e2e209746618867.png',
-        country: 'Backend Development',
-        city: 'Node.js',
-        popularPlaces: 10,
-      },
-      {
-        imgSrc: 'https://learn.microsoft.com/en-us/training/achievements/migrate-on-premises-mongodb-databases-to-cosmos-db.svg',
-        country: 'Database',
-        city: 'MongoDB',
-        popularPlaces: 10,
-      },
-      {
-        imgSrc: 'https://www.analyticsinsight.net/wp-content/uploads/2021/10/Python-3.10-Know-the-Exciting-Features-in-the-Latest-Python-Version.jpg',
-        country: 'Machine Learning',
-        city: 'Python',
-        popularPlaces: 10,
-      },
-      {
-        imgSrc: 'https://www.oracle.com/a/ocom/img/rc24full-redbull-racing.jpg',
-        country: 'Cloud Computing',
-        city: 'Oracle Cloud Infrastructure',
-        popularPlaces: 10,
-      },
-      {
-        imgSrc: 'https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2020/06/docker.png?resize=1024%2C819&ssl=1',
-        country: 'DevOps',
-        city: 'Docker',
-        popularPlaces: 12,
-      },
-      {
-        imgSrc: 'https://cdn.kinandcarta.com/-/media-assets/images/kincarta/insights/2022/02/react-native/react_hero.png?as=0&iar=0&w=1920&rev=61e1dad3af7e465e9544cf8490237772&extension=webp&hash=15AC1170ADEB7C885F07C74ED6D57E8D',
-        country: 'Mobile App Development',
-        city: 'React Native',
-        popularPlaces: 12,
-      },
-      {
-        imgSrc: aws,
-        country: 'Cloud Computing',
-        city: 'aws',
-        popularPlaces: 10,
-      },
-  // Replace this data if you want.
- 
-  
+  {
+    imgSrc: 'https://wallpaperaccess.com/full/3949076.jpg',
+    country: 'Frontend Development',
+    city: 'React.js',
+    popularPlaces: 12,
+  },
+  {
+    imgSrc: 'https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2Fcontent%2Fcover_image_file%2Fcover_image%2F1279226%2Fregular_1708x683_cover-0723_TheTop10MostCommonMistakesThatNode.jsDevelopersMake_Razvan_Newsletter-c49d8d7233bde8980e2e209746618867.png',
+    country: 'Backend Development',
+    city: 'Node.js',
+    popularPlaces: 10,
+  },
+  {
+    imgSrc: 'https://learn.microsoft.com/en-us/training/achievements/migrate-on-premises-mongodb-databases-to-cosmos-db.svg',
+    country: 'Database',
+    city: 'MongoDB',
+    popularPlaces: 10,
+  },
+  {
+    imgSrc: 'https://www.analyticsinsight.net/wp-content/uploads/2021/10/Python-3.10-Know-the-Exciting-Features-in-the-Latest-Python-Version.jpg',
+    country: 'Machine Learning',
+    city: 'Python',
+    popularPlaces: 10,
+  },
+  {
+    imgSrc: 'https://www.oracle.com/a/ocom/img/rc24full-redbull-racing.jpg',
+    country: 'Cloud Computing',
+    city: 'Oracle Cloud Infrastructure',
+    popularPlaces: 10,
+  },
+  {
+    imgSrc: 'https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2020/06/docker.png?resize=1024%2C819&ssl=1',
+    country: 'DevOps',
+    city: 'Docker',
+    popularPlaces: 12,
+  },
+  {
+    imgSrc: 'https://cdn.kinandcarta.com/-/media-assets/images/kincarta/insights/2022/02/react-native/react_hero.png?as=0&iar=0&w=1920&rev=61e1dad3af7e465e9544cf8490237772&extension=webp&hash=15AC1170ADEB7C885F07C74ED6D57E8D',
+    country: 'Mobile App Development',
+    city: 'React Native',
+    popularPlaces: 12,
+  },
+  {
+    imgSrc: aws,
+    country: 'Cloud Computing',
+    city: 'aws',
+    popularPlaces: 10,
+  },
 ];
 
 const CarouselItemWrapper = styled.div`

@@ -43,6 +43,11 @@ import toppan from "./toppan.png";
 import EDGE_CLUB from "./EDGE_CLUB.png";
 import EDGE_CLUB_LOGO from "./EDGE_CLUB_LOGO.png";
 
+import ByteLuv_Logo from "./ByteLuv_Logo.png";
+import ByteLuvPage from "./ByteLuv-Coverpage.png";
+
+import CloaqPage from "./CloaqPage.png";
+
 export {
   logo,
   backend,
@@ -82,4 +87,7 @@ export {
   toppan,
   EDGE_CLUB,
   EDGE_CLUB_LOGO,
+  ByteLuv_Logo,
+  ByteLuvPage,
+  CloaqPage,
 };
